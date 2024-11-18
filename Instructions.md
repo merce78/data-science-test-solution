@@ -29,20 +29,21 @@ These are the steps to follow in order to reproduce the steps and use the materi
  2. Create a virtual python environment to work with and activate it. (linux command)
 
     python3 -m venv env
-    source venv/bin/activate
+    
+    source env/bin/activate
 
- 3. Install python packages 
+ 4. Install python packages 
 
     pip install -r requirements.txt
 
- 4. Open the folder in VSCode or equivalent and ensure the python kernel you're using is the one that  you just created. (env)
+ 5. Open the folder in VSCode or equivalent and ensure the python kernel you're using is the one that  you just created. (env)
 
 
 ## First step:  Generate simulated data
 
 By simulating some data we can better understand the problem and it will help us to explain and validate the solution.
 
-For this step you can use data_simulation.ipynb which is a self-explanatory notepad. The output will be a CSV file with 4 fields that will be stored in the data directory.
+For this step you can use data_simulation.ipynb which is a self-explanatory notebook. The output will be a CSV file with 4 fields that will be stored in the data directory.
 
 Please note that if you run the code without modifying the output CSV name, you will overwrite the generated data which may cause the conclusions to change slightly in the next step.
 
